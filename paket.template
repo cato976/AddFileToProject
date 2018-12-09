@@ -1,0 +1,9 @@
+type file
+id AddFileToProject
+version 0.1.0
+description
+  The awsomest package ever
+authors Andre Cato
+files
+ .\AddFileToProject\bin\Debug\AddFileToProject.dll
+ .\AddFileToProject\bin\Debug\AddFileToProject.pdb
