@@ -15,6 +15,9 @@ install: updatepaket
 build:
 	c:/Tools/Enterprise/MSBuild/15.0/Bin/MSBuild.exe -nologo -v:q -property:GenerateFullPaths=true
 
+release:
+	c:/Tools/Enterprise/MSBuild/15.0/Bin/MSBuild.exe -nologo -v:q -property:GenerateFullPaths=true /p:Configuration=Release
+
 #flags for good development experience with stack trace line number and filenames
 test: build
 	packages/NUnit.ConsoleRunner/tools/nunit3-console.exe \
