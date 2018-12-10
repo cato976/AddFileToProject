@@ -1,3 +1,5 @@
 NUnit
 NUnit3TestAdapter
 Should
+System.Xml.XmlDocument
+System.Xml.Linq
