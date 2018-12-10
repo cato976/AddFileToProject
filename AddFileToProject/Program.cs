@@ -7,7 +7,6 @@ namespace AddFileToProject
     {
         static void Main(string[] args)
         {
-            File.WriteAllLines("C:\\Programs\\Sandbox\\A\\A.Tests\\log2.log", new string[]{ "Starting" });
             //if (args.Length != 2)
             //{
             //    ShowUsage();
