@@ -1,7 +1,10 @@
-framework: net471
+framework: net472
 source https://nuget.org/api/v2
 
 nuget NUnit.Runners
 nuget NUnit
 nuget NUnit3TestAdapter
 nuget Should
+nuget System.Xml.Linq
+nuget System.Xml.ReaderWriter
+nuget System.Xml.Xmldocument
